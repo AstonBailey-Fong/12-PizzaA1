@@ -52,9 +52,9 @@ Partial Class Pizza101
         Me.Label1.Location = New System.Drawing.Point(45, 38)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(142, 17)
+        Me.Label1.Size = New System.Drawing.Size(115, 17)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Enter Student Details"
+        Me.Label1.Text = "Am I editing this?"
         '
         'Label2
         '
@@ -62,9 +62,9 @@ Partial Class Pizza101
         Me.Label2.Location = New System.Drawing.Point(48, 79)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(76, 17)
+        Me.Label2.Size = New System.Drawing.Size(40, 17)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "First Name"
+        Me.Label2.Text = "Yes. "
         '
         'Label3
         '
@@ -72,9 +72,9 @@ Partial Class Pizza101
         Me.Label3.Location = New System.Drawing.Point(189, 79)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 17)
+        Me.Label3.Size = New System.Drawing.Size(88, 17)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Last Name"
+        Me.Label3.Text = "Yes you are."
         '
         'txtLastName
         '
