@@ -72,11 +72,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pizza101.vb">
-      <SubType>Form</SubType>
+    <Compile Include="..\Pizza103.Designer.vb">
+      <DependentUpon>Pizza103.vb</DependentUpon>
     </Compile>
-    <Compile Include="Pizza101.Designer.vb">
-      <DependentUpon>Pizza101.vb</DependentUpon>
+    <Compile Include="..\Pizza103.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pizza101.resx">
-      <DependentUpon>Pizza101.vb</DependentUpon>
+    <EmbeddedResource Include="..\Pizza103.resx">
+      <DependentUpon>Pizza103.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

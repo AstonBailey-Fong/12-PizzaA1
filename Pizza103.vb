@@ -7,6 +7,7 @@
         Public PC As Integer
         Public gender As Char
         Public avMk As Single
+        Public base As String
     End Class
     Dim students(9) As ORDER
 
@@ -79,6 +80,10 @@
     End Sub
 
     Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+
+    End Sub
+
+    Private Sub txtAvMk_TextChanged(sender As Object, e As EventArgs) Handles txtAvMk.TextChanged
 
     End Sub
 End Class

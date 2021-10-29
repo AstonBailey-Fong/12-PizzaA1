@@ -110,16 +110,16 @@ Partial Class Pizza101
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(578, 176)
+        Me.Label5.Location = New System.Drawing.Point(353, 101)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 17)
+        Me.Label5.Size = New System.Drawing.Size(38, 17)
         Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Gender"
+        Me.Label5.Text = "Date"
         '
         'txtGender
         '
-        Me.txtGender.Location = New System.Drawing.Point(541, 197)
+        Me.txtGender.Location = New System.Drawing.Point(313, 122)
         Me.txtGender.Margin = New System.Windows.Forms.Padding(4)
         Me.txtGender.Name = "txtGender"
         Me.txtGender.Size = New System.Drawing.Size(132, 22)
@@ -128,7 +128,7 @@ Partial Class Pizza101
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(565, 223)
+        Me.Label6.Location = New System.Drawing.Point(339, 148)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(83, 17)
@@ -137,7 +137,7 @@ Partial Class Pizza101
         '
         'txtAvMk
         '
-        Me.txtAvMk.Location = New System.Drawing.Point(541, 244)
+        Me.txtAvMk.Location = New System.Drawing.Point(313, 169)
         Me.txtAvMk.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAvMk.Name = "txtAvMk"
         Me.txtAvMk.Size = New System.Drawing.Size(132, 22)
@@ -187,7 +187,7 @@ Partial Class Pizza101
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"$15 Meat Lovers", "$12 Peperoni", "$10 Cheese", "$15 Margherita", "$13 Hawaiian"})
-        Me.ComboBox1.Location = New System.Drawing.Point(78, 57)
+        Me.ComboBox1.Location = New System.Drawing.Point(76, 57)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
         Me.ComboBox1.TabIndex = 19
